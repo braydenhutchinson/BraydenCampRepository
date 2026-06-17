@@ -1,0 +1,75 @@
+/* Global Reset and Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+}
+
+/* Header Banner */
+header {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Top Navigation Bar */
+nav {
+    background-color: blueviolet;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Layout Container */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    margin-bottom: 60px; /* Prevents text from being hidden by the fixed footer */
+}
+
+/* Hardware Page Specific Layouts */
+.component {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.component:last-child {
+    border-bottom: none;
+}
+
+/* Sticky Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #2c3e50;
+    color: #ffffff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.image {
+    display: block;
+    margin: 30px auto;
+    max-width: 90%;
+    height: auto;
+}
